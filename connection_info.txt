@@ -1,0 +1,19 @@
+Dashboard File
+- File Name: ecommercedashboard.pbix
+
+Data Sources
+1. orders.csv
+Columns: Order ID, Order Date, CustomerName, State, City
+2. details.csv
+Columns: Order ID, Amount, Profit, Quantity, Category, Sub-Category, PaymentMode
+
+Updating Data Source
+- Current Location: CSV files are stored locally.
+- To Update Path: Open Power BI Desktop, go to Home > Transform Data > Data Source Settings. Update the file path to the location of your CSV files.
+
+File Path Instructions
+Ensure the CSV files are located in the specified directory. Adjust the path in Power BI Desktop if you move the files.
+  
+Additional Context
+- Ensure CSV files are updated regularly if used for live data reporting.
+- Confirm the integrity of data if any changes are made to the CSV file format or content.
